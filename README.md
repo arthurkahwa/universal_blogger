@@ -1,6 +1,18 @@
-# Universal Blogger
+Universal Blogger
+=================
 
-This is the source code to a simple blogging application.
+This is a 3-layer application that demos a 3-tier structure.
+
+The individual components are:
+
+- Presentation
+  - iOS App
+- Application
+  - Java application exposed through a **Spring Boot** REST service
+- Data
+  - A docker container with:
+    - **postgres** database
+    - **pgAdmin** administration utility
 
 It comprises the following parts:
 * A Docker container for a persistence provider:
