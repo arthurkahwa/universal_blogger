@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_user_8java" kind="file" language="Java">
+    <compoundname>User.java</compoundname>
+    <innerclass refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user" prot="public">de::chapter::mill::entity::User</innerclass>
+    <innernamespace refid="namespacede_1_1chapter_1_1mill_1_1entity">de::chapter::mill::entity</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">de.chapter.mill.entity;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>jakarta.persistence.*;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>lombok.AllArgsConstructor;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>lombok.Data;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>lombok.NoArgsConstructor;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>lombok.ToString;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">@Entity</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">@Data</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">@NoArgsConstructor</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">@AllArgsConstructor</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">@ToString</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">@Table(name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;tbluser&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="21" refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user" refkind="compound"><highlight class="normal">public<sp/>class<sp/><ref refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user" kindref="compound">User</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>@Id</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>@GeneratedValue(strategy<sp/>=<sp/>GenerationType.IDENTITY)</highlight></codeline>
+<codeline lineno="24" refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user_1a8d8e687ec8eef942c9ba0b481ced2e9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>@Column(name<sp/>=<sp/>&quot;username&quot;)</highlight></codeline>
+<codeline lineno="27" refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user_1a897b78051c8ba55a7b7fba3e9d767f48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>username;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>@Column(name<sp/>=<sp/>&quot;email&quot;)</highlight></codeline>
+<codeline lineno="30" refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user_1a2a689d9623aeec1f73f2dbbd3cb03ac3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>String<sp/>email;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>@OneToMany(mappedBy<sp/>=<sp/>&quot;user&quot;)</highlight></codeline>
+<codeline lineno="33" refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user_1afc9fde931326322cde38390d4b093029" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>private<sp/>List&lt;<ref refid="classde_1_1chapter_1_1mill_1_1entity_1_1_post" kindref="compound">Post</ref>&gt;<sp/>posts;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user_1a49d640c79947601371a44f96cc379516" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>public<sp/><ref refid="classde_1_1chapter_1_1mill_1_1entity_1_1_user" kindref="compound">User</ref>(String<sp/>username,<sp/>String<sp/>email)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.username<sp/>=<sp/>username;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.email<sp/>=<sp/>email;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/entity/User.java"/>
+  </compounddef>
+</doxygen>

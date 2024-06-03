@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="interfacede_1_1chapter_1_1mill_1_1repository_1_1_post_repository" kind="interface" language="Java" prot="public">
+    <compoundname>de::chapter::mill::repository::PostRepository</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">org::springframework::data::jpa::repository::JpaRepository&lt; Post, Long &gt;</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacede_1_1chapter_1_1mill_1_1repository_1_1_post_repository_1ac5d32af09571179e3dbce91be6cd0540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="classde_1_1chapter_1_1mill_1_1entity_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>List&lt; Post &gt; de.chapter.mill.repository.PostRepository.findAllByUserId</definition>
+        <argsstring>(Long userId)</argsstring>
+        <name>findAllByUserId</name>
+        <qualifiedname>de.chapter.mill.repository.PostRepository.findAllByUserId</qualifiedname>
+        <param>
+          <type>Long</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+<para>@Query(&quot;SELECT p FROM Post WHERE p.userId = :userId&quot;) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/repository/PostRepository.java" line="12" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>de.chapter.mill.repository.PostRepository</label>
+        <link refid="interfacede_1_1chapter_1_1mill_1_1repository_1_1_post_repository"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>JpaRepository&lt; Post, Long &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>de.chapter.mill.repository.PostRepository</label>
+        <link refid="interfacede_1_1chapter_1_1mill_1_1repository_1_1_post_repository"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>JpaRepository&lt; Post, Long &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/repository/PostRepository.java" line="10" column="18" bodyfile="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/repository/PostRepository.java" bodystart="10" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interfacede_1_1chapter_1_1mill_1_1repository_1_1_post_repository_1ac5d32af09571179e3dbce91be6cd0540" prot="public" virt="non-virtual"><scope>de::chapter::mill::repository::PostRepository</scope><name>findAllByUserId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

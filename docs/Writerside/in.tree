@@ -6,5 +6,6 @@
                  name="Instance Name"
                  start-page="universal-blogger-1.md">
 
+    <toc-element topic="Overview.md"/>
     <toc-element topic="universal-blogger-1.md"/>
 </instance-profile>

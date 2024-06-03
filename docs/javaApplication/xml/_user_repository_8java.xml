@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_user_repository_8java" kind="file" language="Java">
+    <compoundname>UserRepository.java</compoundname>
+    <innerclass refid="interfacede_1_1chapter_1_1mill_1_1repository_1_1_user_repository" prot="public">de::chapter::mill::repository::UserRepository</innerclass>
+    <innernamespace refid="namespacede_1_1chapter_1_1mill_1_1repository">de::chapter::mill::repository</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">de.chapter.mill.repository;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>de.chapter.mill.entity.User;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.data.jpa.repository.JpaRepository;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.stereotype.Repository;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">@Repository</highlight></codeline>
+<codeline lineno="8" refid="interfacede_1_1chapter_1_1mill_1_1repository_1_1_user_repository" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacede_1_1chapter_1_1mill_1_1repository_1_1_user_repository" kindref="compound">UserRepository</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>JpaRepository&lt;User,<sp/>Long&gt;<sp/>{<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/repository/UserRepository.java"/>
+  </compounddef>
+</doxygen>

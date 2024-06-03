@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_rest_service_application_8java" kind="file" language="Java">
+    <compoundname>RestServiceApplication.java</compoundname>
+    <innerclass refid="classde_1_1chapter_1_1_rest_service_application" prot="public">de::chapter::RestServiceApplication</innerclass>
+    <innernamespace refid="namespacede_1_1chapter">de::chapter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">de.chapter;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.boot.SpringApplication;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.springframework.boot.autoconfigure.SpringBootApplication;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">@SpringBootApplication</highlight></codeline>
+<codeline lineno="7" refid="classde_1_1chapter_1_1_rest_service_application" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classde_1_1chapter_1_1_rest_service_application" kindref="compound">RestServiceApplication</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classde_1_1chapter_1_1_rest_service_application_1a713ad9b0d69846a29e7cd563dccbcb23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classde_1_1chapter_1_1_rest_service_application_1a713ad9b0d69846a29e7cd563dccbcb23" kindref="member">main</ref>(String[]<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SpringApplication.run(<ref refid="classde_1_1chapter_1_1_rest_service_application" kindref="compound">RestServiceApplication</ref>.class,<sp/>args);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/RestServiceApplication.java"/>
+  </compounddef>
+</doxygen>

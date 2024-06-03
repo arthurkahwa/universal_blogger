@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classde_1_1chapter_1_1mill_1_1restservice_1_1_rest_service_application_tests" kind="class" language="Java" prot="package">
+    <compoundname>de::chapter::mill::restservice::RestServiceApplicationTests</compoundname>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classde_1_1chapter_1_1mill_1_1restservice_1_1_rest_service_application_tests_1acc70559429049704d76590e7b836a098" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void de.chapter.mill.restservice.RestServiceApplicationTests.contextLoads</definition>
+        <argsstring>()</argsstring>
+        <name>contextLoads</name>
+        <qualifiedname>de.chapter.mill.restservice.RestServiceApplicationTests.contextLoads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/test/java/de/chapter/mill/restservice/RestServiceApplicationTests.java" line="10" column="6" bodyfile="/Users/arthur/Developer/github/universal_blogger/RESTService/src/test/java/de/chapter/mill/restservice/RestServiceApplicationTests.java" bodystart="10" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/test/java/de/chapter/mill/restservice/RestServiceApplicationTests.java" line="7" column="1" bodyfile="/Users/arthur/Developer/github/universal_blogger/RESTService/src/test/java/de/chapter/mill/restservice/RestServiceApplicationTests.java" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classde_1_1chapter_1_1mill_1_1restservice_1_1_rest_service_application_tests_1acc70559429049704d76590e7b836a098" prot="package" virt="non-virtual"><scope>de::chapter::mill::restservice::RestServiceApplicationTests</scope><name>contextLoads</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

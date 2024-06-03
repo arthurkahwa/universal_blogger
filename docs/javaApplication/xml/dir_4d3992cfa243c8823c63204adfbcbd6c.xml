@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_4d3992cfa243c8823c63204adfbcbd6c" kind="dir">
+    <compoundname>/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/repository</compoundname>
+    <innerfile refid="_post_repository_8java">PostRepository.java</innerfile>
+    <innerfile refid="_user_repository_8java">UserRepository.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java/de/chapter/mill/repository/"/>
+  </compounddef>
+</doxygen>

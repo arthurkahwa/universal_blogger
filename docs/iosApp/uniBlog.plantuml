@@ -1,0 +1,123 @@
+@startuml
+' STYLE START
+hide empty members
+skinparam shadowing false
+' STYLE END
+set namespaceSeparator none
+
+
+class "ViewModel" as ViewModel << (C, DarkSeaGreen) >> { 
+  ~userList : [UserPost]
+  ~userListLoading
+  ~service
+  ~findUserList() 
+}
+class "AppError" as AppError << (E, LightSteelBlue) enum >> { 
+  ~generalError(_:)
+  ~networkError(_:) 
+}
+class "HttpMethod" as HttpMethod << (E, LightSteelBlue) enum >> { 
+  ~GET
+  ~POST
+  ~PUT
+  ~DELETE 
+}
+class "UniBlogApp" as UniBlogApp << (S, SkyBlue) struct >> { 
+  ~persistenceController
+  ~body : some Scene 
+}
+class "User" as User << (S, SkyBlue) struct >> { 
+  ~id : Int
+  ~username : String
+  ~email : String 
+}
+class "Post" as Post << (S, SkyBlue) struct >> { 
+  ~id : Int
+  ~userID : Int
+  ~title : String
+  ~body : String 
+}
+class "CodingKeys" as Post.CodingKeys << (E, LightSteelBlue) enum >> { 
+  ~id
+  ~userID
+  ~title
+  ~body 
+}
+class "UserPost" as UserPost << (S, SkyBlue) struct >> { 
+  ~id : Int
+  ~username : String
+  ~email : String
+  ~posts : [Post] 
+}
+class "PostListView" as PostListView << (S, SkyBlue) struct >> { 
+  ~viewModel : ViewModel
+  ~selectedUser : UserPost?
+  ~selectedPost : Post?
+  ~body : some View 
+}
+class "PostListView_Previews" as PostListView_Previews << (S, SkyBlue) struct >> { 
+  ~{static} previews : some View 
+}
+class "UserListView" as UserListView << (S, SkyBlue) struct >> { 
+  ~viewModel : ViewModel
+  ~selectedUser : UserPost?
+  ~body : some View 
+}
+class "UserListView_Previews" as UserListView_Previews << (S, SkyBlue) struct >> { 
+  ~{static} previews : some View 
+}
+class "PostDetailView" as PostDetailView << (S, SkyBlue) struct >> { 
+  ~selectedPost : Post?
+  ~body : some View 
+}
+class "PostDetailView_Previews" as PostDetailView_Previews << (S, SkyBlue) struct >> { 
+  ~{static} previews : some View 
+}
+class "ContentView" as ContentView << (S, SkyBlue) struct >> { 
+  -viewContext
+  -viewModel
+  -selectedUser : UserPost?
+  -selectedPost : Post?
+  ~body : some View 
+}
+class "ContentView_Previews" as ContentView_Previews << (S, SkyBlue) struct >> { 
+  ~{static} previews : some View 
+}
+class "Service" as Service << (C, DarkSeaGreen) >> { 
+  ~{static} shared
+  -init()
+  ~DataOperation(on:using:with:) 
+}
+class "PersistenceController" as PersistenceController << (S, SkyBlue) struct >> { 
+  ~{static} shared
+  ~{static} preview : PersistenceController
+  ~container : NSPersistentContainer
+  ~init(inMemory:) 
+}
+ObservableObject <|-- ViewModel : inherits
+Error -- AppError : inherits
+String -- HttpMethod : inherits
+App <|-- UniBlogApp : inherits
+Codable <|-- User : inherits
+Identifiable <|-- User : inherits
+Hashable <|-- User : inherits
+Codable <|-- Post : inherits
+Identifiable <|-- Post : inherits
+Hashable <|-- Post : inherits
+String -- Post.CodingKeys : inherits
+CodingKey -- Post.CodingKeys : inherits
+Codable <|-- UserPost : inherits
+Identifiable <|-- UserPost : inherits
+Hashable <|-- UserPost : inherits
+View <|-- PostListView : inherits
+PreviewProvider <|-- PostListView_Previews : inherits
+View <|-- UserListView : inherits
+PreviewProvider <|-- UserListView_Previews : inherits
+View <|-- PostDetailView : inherits
+PreviewProvider <|-- PostDetailView_Previews : inherits
+View <|-- ContentView : inherits
+PreviewProvider <|-- ContentView_Previews : inherits
+Post +-- Post.CodingKeys
+
+@enduml
+

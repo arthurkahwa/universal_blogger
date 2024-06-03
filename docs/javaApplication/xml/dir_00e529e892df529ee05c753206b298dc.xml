@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_00e529e892df529ee05c753206b298dc" kind="dir">
+    <compoundname>/Users/arthur/Developer/github/universal_blogger/RESTService/src/main</compoundname>
+    <innerdir refid="dir_02a602f7d4d6024eb6b218858e2793a0">/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/java</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/arthur/Developer/github/universal_blogger/RESTService/src/main/"/>
+  </compounddef>
+</doxygen>
