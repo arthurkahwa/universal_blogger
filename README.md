@@ -1,15 +1,18 @@
 Universal Blogger
 =================
 
-This is a 3-layer application that demos a 3-tier structure.
+This is a 3-layer application that demonstrates a 3-tier application structure of a full-stack development.
 
 <!-- TOC -->
 * [Universal Blogger](#universal-blogger)
 * [Overview](#overview)
+* [Frontend](#frontend)
   * [Presentation Layer](#presentation-layer)
     * [iOS App](#ios-app)
+* [Backend](#backend)
   * [Application Layer](#application-layer)
     * [Java Spring Boot Application](#java-spring-boot-application)
+    * [REST Service API Reference](#rest-service-api-reference)
   * [Data Layer](#data-layer)
     * [PostgreSQL database](#postgresql-database)
 <!-- TOC -->
@@ -27,12 +30,15 @@ The individual components are:
         - **postgreSQL** database
         - **pgAdmin** administration utility
 
+# Frontend
 ## Presentation Layer
 ### iOS App
 This is the main user interface for the blogging experience.
 
 The architecture f the App is MVVM using SwiftUI.
 ![iOS UniBlog Native App](docs/iosApp/uniBlog.png)
+
+# Backend
 
 ## Application Layer
 ### Java Spring Boot Application
