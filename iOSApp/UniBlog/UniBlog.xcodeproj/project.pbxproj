@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EC544EF2A51DC8F0019440C /* UniBlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC544EE2A51DC8F0019440C /* UniBlogApp.swift */; };
+		8EC544F12A51DC8F0019440C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC544F02A51DC8F0019440C /* Persistence.swift */; };
+		8EC544F42A51DC8F0019440C /* UniBlog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EC544F22A51DC8F0019440C /* UniBlog.xcdatamodeld */; };
+		8EC544F62A51DC8F0019440C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC544F52A51DC8F0019440C /* ContentView.swift */; };
+		8EC544F82A51DC900019440C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC544F72A51DC900019440C /* Assets.xcassets */; };
+		8EC544FC2A51DC900019440C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC544FB2A51DC900019440C /* Preview Assets.xcassets */; };
+		8EC545062A51DC900019440C /* UniBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545052A51DC900019440C /* UniBlogTests.swift */; };
+		8EC545102A51DC900019440C /* UniBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5450F2A51DC900019440C /* UniBlogUITests.swift */; };
+		8EC545122A51DC900019440C /* UniBlogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545112A51DC900019440C /* UniBlogUITestsLaunchTests.swift */; };
+		8EC545202A51DD3E0019440C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5451F2A51DD3E0019440C /* AppError.swift */; };
+		8EC545222A51DDD40019440C /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545212A51DDD40019440C /* HttpMethod.swift */; };
+		8EC545252A51DECE0019440C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545242A51DECE0019440C /* Post.swift */; };
+		8EC545272A51DFF30019440C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545262A51DFF30019440C /* User.swift */; };
+		8EC545292A51E0790019440C /* UserPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545282A51E0790019440C /* UserPost.swift */; };
+		8EC5452C2A51E1CD0019440C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5452B2A51E1CD0019440C /* Service.swift */; };
+		8EC545302A51E7730019440C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5452F2A51E7730019440C /* ViewModel.swift */; };
+		8EC545322A520C220019440C /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545312A520C220019440C /* UserListView.swift */; };
+		8EC545342A520C6F0019440C /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545332A520C6F0019440C /* PostListView.swift */; };
+		8EC545362A520CD50019440C /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC545352A520CD50019440C /* PostDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC545022A51DC900019440C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC544E32A51DC8F0019440C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC544EA2A51DC8F0019440C;
+			remoteInfo = UniBlog;
+		};
+		8EC5450C2A51DC900019440C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC544E32A51DC8F0019440C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC544EA2A51DC8F0019440C;
+			remoteInfo = UniBlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EC544EB2A51DC8F0019440C /* UniBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC544EE2A51DC8F0019440C /* UniBlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniBlogApp.swift; sourceTree = "<group>"; };
+		8EC544F02A51DC8F0019440C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8EC544F32A51DC8F0019440C /* UniBlog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniBlog.xcdatamodel; sourceTree = "<group>"; };
+		8EC544F52A51DC8F0019440C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EC544F72A51DC900019440C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC544F92A51DC900019440C /* UniBlog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniBlog.entitlements; sourceTree = "<group>"; };
+		8EC544FB2A51DC900019440C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EC545012A51DC900019440C /* UniBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC545052A51DC900019440C /* UniBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniBlogTests.swift; sourceTree = "<group>"; };
+		8EC5450B2A51DC900019440C /* UniBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC5450F2A51DC900019440C /* UniBlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniBlogUITests.swift; sourceTree = "<group>"; };
+		8EC545112A51DC900019440C /* UniBlogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniBlogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EC5451F2A51DD3E0019440C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		8EC545212A51DDD40019440C /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		8EC545242A51DECE0019440C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8EC545262A51DFF30019440C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8EC545282A51E0790019440C /* UserPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPost.swift; sourceTree = "<group>"; };
+		8EC5452B2A51E1CD0019440C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8EC5452F2A51E7730019440C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8EC545312A520C220019440C /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		8EC545332A520C6F0019440C /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		8EC545352A520CD50019440C /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC544E82A51DC8F0019440C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC544FE2A51DC900019440C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC545082A51DC900019440C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC544E22A51DC8F0019440C = {
+			isa = PBXGroup;
+			children = (
+				8EC544ED2A51DC8F0019440C /* UniBlog */,
+				8EC545042A51DC900019440C /* UniBlogTests */,
+				8EC5450E2A51DC900019440C /* UniBlogUITests */,
+				8EC544EC2A51DC8F0019440C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC544EC2A51DC8F0019440C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC544EB2A51DC8F0019440C /* UniBlog.app */,
+				8EC545012A51DC900019440C /* UniBlogTests.xctest */,
+				8EC5450B2A51DC900019440C /* UniBlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC544ED2A51DC8F0019440C /* UniBlog */ = {
+			isa = PBXGroup;
+			children = (
+				8EC544F72A51DC900019440C /* Assets.xcassets */,
+				8EC5451E2A51DD110019440C /* Enum */,
+				8EC545232A51DEA40019440C /* Model */,
+				8EC544FA2A51DC900019440C /* Preview Content */,
+				8EC5452A2A51E1A50019440C /* Service */,
+				8EC544F92A51DC900019440C /* UniBlog.entitlements */,
+				8EC544F22A51DC8F0019440C /* UniBlog.xcdatamodeld */,
+				8EC544EE2A51DC8F0019440C /* UniBlogApp.swift */,
+				8EC5452D2A51E6130019440C /* View */,
+				8EC5452E2A51E7560019440C /* ViewModel */,
+			);
+			path = UniBlog;
+			sourceTree = "<group>";
+		};
+		8EC544FA2A51DC900019440C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EC544FB2A51DC900019440C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EC545042A51DC900019440C /* UniBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC545052A51DC900019440C /* UniBlogTests.swift */,
+			);
+			path = UniBlogTests;
+			sourceTree = "<group>";
+		};
+		8EC5450E2A51DC900019440C /* UniBlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC5450F2A51DC900019440C /* UniBlogUITests.swift */,
+				8EC545112A51DC900019440C /* UniBlogUITestsLaunchTests.swift */,
+			);
+			path = UniBlogUITests;
+			sourceTree = "<group>";
+		};
+		8EC5451E2A51DD110019440C /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8EC5451F2A51DD3E0019440C /* AppError.swift */,
+				8EC545212A51DDD40019440C /* HttpMethod.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8EC545232A51DEA40019440C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EC545242A51DECE0019440C /* Post.swift */,
+				8EC545262A51DFF30019440C /* User.swift */,
+				8EC545282A51E0790019440C /* UserPost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EC5452A2A51E1A50019440C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8EC544F02A51DC8F0019440C /* Persistence.swift */,
+				8EC5452B2A51E1CD0019440C /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8EC5452D2A51E6130019440C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EC544F52A51DC8F0019440C /* ContentView.swift */,
+				8EC545312A520C220019440C /* UserListView.swift */,
+				8EC545332A520C6F0019440C /* PostListView.swift */,
+				8EC545352A520CD50019440C /* PostDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EC5452E2A51E7560019440C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EC5452F2A51E7730019440C /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC544EA2A51DC8F0019440C /* UniBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC545152A51DC900019440C /* Build configuration list for PBXNativeTarget "UniBlog" */;
+			buildPhases = (
+				8EC544E72A51DC8F0019440C /* Sources */,
+				8EC544E82A51DC8F0019440C /* Frameworks */,
+				8EC544E92A51DC8F0019440C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniBlog;
+			productName = UniBlog;
+			productReference = 8EC544EB2A51DC8F0019440C /* UniBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC545002A51DC900019440C /* UniBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC545182A51DC900019440C /* Build configuration list for PBXNativeTarget "UniBlogTests" */;
+			buildPhases = (
+				8EC544FD2A51DC900019440C /* Sources */,
+				8EC544FE2A51DC900019440C /* Frameworks */,
+				8EC544FF2A51DC900019440C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC545032A51DC900019440C /* PBXTargetDependency */,
+			);
+			name = UniBlogTests;
+			productName = UniBlogTests;
+			productReference = 8EC545012A51DC900019440C /* UniBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EC5450A2A51DC900019440C /* UniBlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC5451B2A51DC900019440C /* Build configuration list for PBXNativeTarget "UniBlogUITests" */;
+			buildPhases = (
+				8EC545072A51DC900019440C /* Sources */,
+				8EC545082A51DC900019440C /* Frameworks */,
+				8EC545092A51DC900019440C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC5450D2A51DC900019440C /* PBXTargetDependency */,
+			);
+			name = UniBlogUITests;
+			productName = UniBlogUITests;
+			productReference = 8EC5450B2A51DC900019440C /* UniBlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC544E32A51DC8F0019440C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8EC544EA2A51DC8F0019440C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8EC545002A51DC900019440C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8EC544EA2A51DC8F0019440C;
+					};
+					8EC5450A2A51DC900019440C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8EC544EA2A51DC8F0019440C;
+					};
+				};
+			};
+			buildConfigurationList = 8EC544E62A51DC8F0019440C /* Build configuration list for PBXProject "UniBlog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC544E22A51DC8F0019440C;
+			productRefGroup = 8EC544EC2A51DC8F0019440C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC544EA2A51DC8F0019440C /* UniBlog */,
+				8EC545002A51DC900019440C /* UniBlogTests */,
+				8EC5450A2A51DC900019440C /* UniBlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC544E92A51DC8F0019440C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC544FC2A51DC900019440C /* Preview Assets.xcassets in Resources */,
+				8EC544F82A51DC900019440C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC544FF2A51DC900019440C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC545092A51DC900019440C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC544E72A51DC8F0019440C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC544EF2A51DC8F0019440C /* UniBlogApp.swift in Sources */,
+				8EC544F42A51DC8F0019440C /* UniBlog.xcdatamodeld in Sources */,
+				8EC545202A51DD3E0019440C /* AppError.swift in Sources */,
+				8EC545302A51E7730019440C /* ViewModel.swift in Sources */,
+				8EC544F62A51DC8F0019440C /* ContentView.swift in Sources */,
+				8EC545342A520C6F0019440C /* PostListView.swift in Sources */,
+				8EC545272A51DFF30019440C /* User.swift in Sources */,
+				8EC545292A51E0790019440C /* UserPost.swift in Sources */,
+				8EC545322A520C220019440C /* UserListView.swift in Sources */,
+				8EC545222A51DDD40019440C /* HttpMethod.swift in Sources */,
+				8EC5452C2A51E1CD0019440C /* Service.swift in Sources */,
+				8EC545362A520CD50019440C /* PostDetailView.swift in Sources */,
+				8EC545252A51DECE0019440C /* Post.swift in Sources */,
+				8EC544F12A51DC8F0019440C /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC544FD2A51DC900019440C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC545062A51DC900019440C /* UniBlogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC545072A51DC900019440C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC545102A51DC900019440C /* UniBlogUITests.swift in Sources */,
+				8EC545122A51DC900019440C /* UniBlogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC545032A51DC900019440C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC544EA2A51DC8F0019440C /* UniBlog */;
+			targetProxy = 8EC545022A51DC900019440C /* PBXContainerItemProxy */;
+		};
+		8EC5450D2A51DC900019440C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC544EA2A51DC8F0019440C /* UniBlog */;
+			targetProxy = 8EC5450C2A51DC900019440C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EC545132A51DC900019440C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EC545142A51DC900019440C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8EC545162A51DC900019440C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniBlog/UniBlog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniBlog/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X8WVYDFHZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = softwaremill.de.UniBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EC545172A51DC900019440C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniBlog/UniBlog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniBlog/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X8WVYDFHZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = softwaremill.de.UniBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EC545192A51DC900019440C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X8WVYDFHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = softwaremill.de.UniBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniBlog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniBlog";
+			};
+			name = Debug;
+		};
+		8EC5451A2A51DC900019440C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X8WVYDFHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = softwaremill.de.UniBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniBlog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniBlog";
+			};
+			name = Release;
+		};
+		8EC5451C2A51DC900019440C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X8WVYDFHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = softwaremill.de.UniBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniBlog;
+			};
+			name = Debug;
+		};
+		8EC5451D2A51DC900019440C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X8WVYDFHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = softwaremill.de.UniBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniBlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC544E62A51DC8F0019440C /* Build configuration list for PBXProject "UniBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC545132A51DC900019440C /* Debug */,
+				8EC545142A51DC900019440C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC545152A51DC900019440C /* Build configuration list for PBXNativeTarget "UniBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC545162A51DC900019440C /* Debug */,
+				8EC545172A51DC900019440C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC545182A51DC900019440C /* Build configuration list for PBXNativeTarget "UniBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC545192A51DC900019440C /* Debug */,
+				8EC5451A2A51DC900019440C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC5451B2A51DC900019440C /* Build configuration list for PBXNativeTarget "UniBlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC5451C2A51DC900019440C /* Debug */,
+				8EC5451D2A51DC900019440C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EC544F22A51DC8F0019440C /* UniBlog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EC544F32A51DC8F0019440C /* UniBlog.xcdatamodel */,
+			);
+			currentVersion = 8EC544F32A51DC8F0019440C /* UniBlog.xcdatamodel */;
+			path = UniBlog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EC544E32A51DC8F0019440C /* Project object */;
+}

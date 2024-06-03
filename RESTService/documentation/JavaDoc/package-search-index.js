@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"de.chapter"},{"l":"de.chapter.mill.controller"},{"l":"de.chapter.mill.entity"},{"l":"de.chapter.mill.repository"}];updateSearchResults();
