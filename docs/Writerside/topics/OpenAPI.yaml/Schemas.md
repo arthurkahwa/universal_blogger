@@ -1,3 +1,3 @@
-# API Reference
+# Schemas
 
 Start typing here...
