@@ -54,3 +54,6 @@ This is the communication entry point betqween the applucation business logic an
 This is the implementation of the storage layer.
 
 The database engine is containerized in docker.
+
+The database has thed schema:
+![Database Schema](./docs/database/database.png)

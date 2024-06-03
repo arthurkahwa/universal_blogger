@@ -6,6 +6,8 @@
                  name="Instance Name"
                  start-page="universal-blogger-1.md">
 
+    <toc-element topic="API_Reference.topic"/>
+    <toc-element topic="Empty-XML-Topic.topic"/>
     <toc-element topic="API-Reference.topic"/>
     <toc-element topic="Reference.topic"/>
     <toc-element topic="API_Reference.md">
