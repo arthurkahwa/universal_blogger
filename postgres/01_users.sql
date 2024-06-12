@@ -1,0 +1,10 @@
+insert into users (id, username) values (1, 'Sincere@april.biz');
+insert into users (id, username) values (2, 'Shanna@melissa.tv');
+insert into users (id, username) values (3, 'Nathan@yesenia.net');
+insert into users (id, username) values (4, 'Julianne.OConner@kory.org');
+insert into users (id, username) values (5, 'Lucio_Hettinger@annie.ca');
+insert into users (id, username) values (6, 'Karley_Dach@jasper.info');
+insert into users (id, username) values (7, 'Telly.Hoeger@billy.biz');
+insert into users (id, username) values (8, 'Sherwood@rosamond.me');
+insert into users (id, username) values (9, 'Chaim_McDermott@dana.io');
+insert into users (id, username) values (10, 'Rey.Padberg@karina.biz');
