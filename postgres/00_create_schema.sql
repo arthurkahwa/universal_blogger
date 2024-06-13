@@ -2,7 +2,7 @@ create sequence id_counter;
 
 alter sequence id_counter owner to postgres;
 
-create table if not exists users
+create table users
 (
     id       serial not null
         constraint users_pk
@@ -17,7 +17,7 @@ alter table users
 
 alter sequence id_counter owned by users.id;
 
-create table if not exists todo
+create table todo
 (
     id        serial
         constraint todo_pk
@@ -32,7 +32,7 @@ create table if not exists todo
 alter table todo
     owner to postgres;
 
-create table if not exists albums
+create table albums
 (
     id     serial
         constraint albums_pk
@@ -46,22 +46,23 @@ create table if not exists albums
 alter table albums
     owner to postgres;
 
-create table if not exists photos
+create table photos
 (
-    id      serial
+    id           serial
         constraint photos_pk
             primary key,
-    albumid integer
+    albumid      integer
         constraint photos_albums_id_fk
             references albums,
-    title   varchar,
-    url     varchar
+    title        varchar,
+    url          varchar,
+    thumbnailurl varchar
 );
 
 alter table photos
     owner to postgres;
 
-create table if not exists posts
+create table posts
 (
     id     serial
         constraint posts_pk
@@ -76,7 +77,7 @@ create table if not exists posts
 alter table posts
     owner to postgres;
 
-create table if not exists comments
+create table comments
 (
     id      serial
         constraint comments_pk
@@ -90,5 +91,4 @@ create table if not exists comments
 
 alter table comments
     owner to postgres;
-
 

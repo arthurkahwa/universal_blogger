@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/postgres/01_users.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/postgres/02_todos.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/postgres/03_albums.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/postgres/04_photos.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/postgres/05_posts.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
