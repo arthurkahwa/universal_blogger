@@ -82,7 +82,7 @@ create table comments
     id      serial
         constraint comments_pk
             primary key,
-    postoid integer
+    postid integer
         constraint comments_posts_id_fk
             references posts,
     email   varchar,
