@@ -15,4 +15,7 @@ This is  implemented as a 3-Tier Application:
     * Browser-based app
 
 ### Application Structure
-![3-Tier Application Structure](../../images/overview.001.png){border-effect=line}
+![3-Tier Application Structure](overview.001.png)
+
+### Database structure
+![database structure](datbase-001.png)

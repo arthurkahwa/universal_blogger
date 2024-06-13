@@ -2,9 +2,8 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="o"
-                 name="oerview"
-                 start-page="starter-topic.md">
+<instance-profile id="in"
+                 name="Instance Name" start-page="README.md">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="README.md"/>
 </instance-profile>
